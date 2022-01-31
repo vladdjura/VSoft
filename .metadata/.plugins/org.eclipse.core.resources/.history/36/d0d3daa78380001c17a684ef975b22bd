@@ -1,0 +1,28 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] array  = {1,4,1000,51,4,100};
+		calculateAverage(array);
+		specialValues(array, 5);
+
+	}
+	public static void calculateAverage(int [] array) {
+		double result = 0;
+		for(int a:array) {
+			result += a;
+		}
+		result /= array.length;
+		System.out.println("Average value of array is "+result);
+		
+	}
+	
+	public static void specialValues(int []array, int specialValue) {
+		for(int i:array) {
+			if(i == specialValue) {
+				System.out.println("Value exist in this array");
+			}
+		}
+	}
+}

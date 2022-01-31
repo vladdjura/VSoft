@@ -1,0 +1,10 @@
+
+public class Assignements {
+
+	
+	public void printingStars() {
+		for(int i = 0;i<5;i++) {
+			System.out.println("*****");
+		}
+	}
+}

@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Assignements assignement = new Assignements();
+		assignement.switchStatement(2);
+		assignement.printTodaysThought(Day.FRIDAY);
+	}
+
+}

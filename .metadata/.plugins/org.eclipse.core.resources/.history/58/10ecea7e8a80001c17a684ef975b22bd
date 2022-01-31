@@ -1,0 +1,110 @@
+import java.util.Arrays;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] array  = {1,4,1000,51,4,100};
+		calculateAverage(array);
+		specialValues(array, 5);
+		findIndex(array, 4);
+		remove(array, 4);
+		minMax(array);
+		reverseArray(array);
+	}
+	public static void calculateAverage(int [] array) {
+		double result = 0;
+		for(int a:array) {
+			result += a;
+		}
+		result /= array.length;
+		System.out.println("Average value of array is "+result);
+		
+	}
+	
+	public static void specialValues(int []array, int specialValue) {
+		boolean flag = false;
+		for(int i:array) {
+			if(i == specialValue) {
+				System.out.println("Value exist in this array");
+				flag=true;
+				break;
+			}
+		}
+		if(!flag) {
+			System.out.println("Value does not exist in this array");
+		}
+	}
+	public static void findIndex(int []array, int value) {
+		boolean flag = false;
+		for(int i = 0; i<array.length;i++) {
+			if(array[i]==value) {
+				System.out.println("Index of the array element is: "+i);
+				flag=true;
+				break;
+			}
+		}
+		
+		if(!flag) {
+			System.out.println("Value does not exist in this array");
+		}
+	}
+	public static void remove(int []array, int removedValue) {
+		System.out.println("Array before deleting "+Arrays.toString(array));
+		for(int i = 0;i <=array.length;i++) {
+			if(array[i]==removedValue) {
+				for(int j = i;j<array.length-1;j++) {
+					array[j]=array[j+1];
+					
+				}
+				break;
+				
+			}
+		}
+		System.out.println("Array after deleting "+Arrays.toString(array));
+		
+	}
+	public static void minMax(int []array) {
+		int min = array[0];
+		int max = array[0];
+		for(int i = 1;i<array.length-1;i=i+2) {
+			if(i+1>array.length) {
+				if(array[i]>max) {
+					max = array[i];
+				}
+				if(array[1]<min) {
+					min = array[i];	
+				}
+			}
+			if(array[i]>array[i+1]) {
+				if(array[i]>max) {
+					max = array[i];
+				}
+				if(array[i+1]<min) {
+					
+					min = array[i+1];	
+				}
+			}
+			if(array[i]<array[i+1]) {
+				if(array[i+1]>max) {
+					max = array[i+1];
+				}
+				if(array[1]<min) {
+					min = array[i];	
+				}
+			}
+			}
+		System.out.println("Array " + Arrays.toString(array));
+		System.out.println("Max value from the array "+max);
+		System.out.println("Min value from the array "+min);
+		
+	}
+	public static void reverseArray(int []array) {
+		int[] reverse = new int [array.length];
+		for(int i = array.length;i>=0;i--) {
+			reverse[i]=array[i];
+		}
+		System.out.println("Array " + Arrays.toString(array));
+		System.out.println("Reverse Array " + Arrays.toString(reverse));
+	}
+}
