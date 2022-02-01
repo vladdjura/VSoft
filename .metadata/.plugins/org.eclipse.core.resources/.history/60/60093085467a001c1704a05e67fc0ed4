@@ -1,9 +1,0 @@
-package javaaaa;
-
-public class vezba {
-
-	
-		public int sabiranje() {
-			return 0;
-		}
-}
