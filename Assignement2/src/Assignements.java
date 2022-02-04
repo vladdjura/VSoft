@@ -115,6 +115,7 @@ public class Assignements {
 	public void palindrome() {
 		System.out.println("please enter word for checking");
 		String word = sc.nextLine();
+		boolean flag = true;
 		int i = 0;
 		int j = word.length()-1;
 		if(!word.isEmpty()) {
@@ -123,11 +124,12 @@ public class Assignements {
 		while (j > i) {
 			if (word.charAt(i)!=word.charAt(j)) {
 				System.out.println(word+" this word is not palindrome");
+				flag = false;
 				break;
 			}
 			i++;
 			j--;
-		}
+		}if(flag)
 		System.out.println(word+" is palindrome");
 	}else {
 		System.out.println("you cant enter empty word");
