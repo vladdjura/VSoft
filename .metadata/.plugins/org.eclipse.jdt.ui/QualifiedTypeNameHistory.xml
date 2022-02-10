@@ -30,14 +30,19 @@
     <fullyQualifiedTypeName name="Employee.AccountDepartement"/>
     <fullyQualifiedTypeName name="CalculateAppImpl"/>
     <fullyQualifiedTypeName name="ass2.EmployeeDao"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="ass2.Employee"/>
     <fullyQualifiedTypeName name="java.awt.Menu"/>
     <fullyQualifiedTypeName name="ass2.EmployeeDaoImpl"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ass3.CustomerDao"/>
     <fullyQualifiedTypeName name="ass3.CustomerDaoImpl"/>
     <fullyQualifiedTypeName name="ass3.Customer"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="bacanjeNovcica.bacanjeNovcica"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="model.Doctor"/>
+    <fullyQualifiedTypeName name="model.Cardiolog"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="model.Patient"/>
 </qualifiedTypeNameHistroy>
