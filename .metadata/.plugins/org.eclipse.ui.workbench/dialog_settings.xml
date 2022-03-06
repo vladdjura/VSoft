@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.html.ui.internal.wizard.NewHTMLWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
 			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
@@ -16,6 +17,9 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Vladislav\Desktop\Assignement12.zip"/>
+			<item value="C:\Users\Vladislav\Desktop\ASS12.zip"/>
+			<item value="C:\Users\Vladislav\Desktop\ASS11updateddd.zip"/>
 			<item value="C:\Users\Vladislav\Desktop\ASS11updated.zip"/>
 			<item value="C:\Users\Vladislav\Desktop\ASS11upt.zip"/>
 			<item value="C:\Users\Vladislav\Desktop\ASS11.zip"/>
